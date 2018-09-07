@@ -1,5 +1,29 @@
 # Firebasephotos
 
+### App demo using:
+
+- Angular
+- Firebase
+- Upload files
+- Bootstrap
+
+Add Firebase config to environments variable
+Open /src/environments/environment.ts and add your Firebase configuration. You can find your project configuration in the Firebase Console. From the project overview page, click Add Firebase to your web app.
+
+```
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: '<your-key>',
+    authDomain: '<your-project-authdomain>',
+    databaseURL: '<your-database-URL>',
+    projectId: '<your-project-id>',
+    storageBucket: '<your-storage-bucket>',
+    messagingSenderId: '<your-messaging-sender-id>'
+  }
+};
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server
